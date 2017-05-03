@@ -34,10 +34,35 @@
 ehthumbs.db
 Thumbs.db
 
-.project
-.classpath
-.idea
-.mvn
-*.iml
 atlassian-ide-plugin.xml
-target
+
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Takari Maven Wrapper ###
+.mvn/
+mvnw
+mvnw.cmd
